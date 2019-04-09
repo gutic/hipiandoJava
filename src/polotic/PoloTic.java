@@ -18,11 +18,21 @@ public class PoloTic {
         String hola;
         hola = "HOLAAA";
         Clase1 clase = new Clase1();
-        clase.setA(1);
-        clase.setB(2);
+
+        System.out.println("Edad 1: ");
+        clase.setA(teclado.nextInt());
+        System.out.println("Edad 2: ");
+        clase.setB(teclado.nextInt());
         
-        System.out.print(hola + "\n");
-        do{
+        System.out.println(clase.edad());
+        
+        //System.out.print("MiBranch");
+        
+        //la edad del 1 participante y la edad del 2do participante y cual es mayor
+        
+        
+        //System.out.print(hola + "\n");
+        /*do{
             System.out.print("Dame num 1 \n");
             A1 = teclado.nextInt();
             if(A1==0){
@@ -36,7 +46,7 @@ public class PoloTic {
                 System.out.println("La suma es =  " + (A1+A2) + " La suma de la clase: " + clase.sumar());
             }
         }while (A1 != 0 && A2 != 0);
-        
+        */
     }
     
 }
