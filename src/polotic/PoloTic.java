@@ -17,15 +17,43 @@ public class PoloTic {
         char algo = 'a';
         String hola;
         hola = "HOLAAA";
-        Clase1 clase = new Clase1();
+        int resto;
+        int num1, num2 = 10;
+        
+        do{
+        System.out.println("Ingrese numero a comprobar si es multiplo de '10': ");
+        num1 = teclado.nextInt();
 
-        System.out.println("Edad 1: ");
-        clase.setA(teclado.nextInt());
-        System.out.println("Edad 2: ");
-        clase.setB(teclado.nextInt());
+        resto = num1%num2;
+        if (resto==0)
+            System.out.println(num1 + " ES multiplo de " + num2);
+        else
+            System.out.println(num1 + " NO es multiplo de " + num2);
         
-        System.out.println(clase.edad());
+        }while(num1 != 0);
         
+        do{
+        System.out.println("Ingrese numero a comprobar si es PAR: ");
+        num1 = teclado.nextInt();
+        if (num1%2==0)
+            System.out.println("El numero es PAR");
+        else
+            System.out.println("El numero es IMPAR");
+        }while(num1 != 0);
+        
+        
+        
+        
+       
+//        Clase1 clase = new Clase1();
+
+//        System.out.println("Edad 1: ");
+//        clase.setA(teclado.nextInt());
+//        System.out.println("Edad 2: ");
+//        clase.setB(teclado.nextInt());
+//        
+//        System.out.println(clase.edad());
+//        System.out.println("");
         //System.out.print("MiBranch");
         
         //la edad del 1 participante y la edad del 2do participante y cual es mayor
