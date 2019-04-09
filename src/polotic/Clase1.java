@@ -27,5 +27,17 @@ public class Clase1 {
     public int sumar(){
         return _a+_b;
     }
+    public String edad(){
+        if (_a > _b){
+            return "A mayor";
+        }else{
+            if(_b > _a){
+                return "B mayor";    
+            }else{
+                return "Son iguales";
+            }
+        }
+        
+    }
  
 }
