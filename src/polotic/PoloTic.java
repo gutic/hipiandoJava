@@ -15,10 +15,13 @@ public class PoloTic {
         Scanner teclado = new Scanner(System.in);
         float A1, A2;
         char algo = 'a';
-        String hola = "HOLAAA";
+        String hola;
+        hola = "HOLAAA";
         Clase1 clase = new Clase1();
         clase.setA(1);
         clase.setB(2);
+        
+        System.out.print(hola + "\n");
         do{
             System.out.print("Dame num 1 \n");
             A1 = teclado.nextInt();
