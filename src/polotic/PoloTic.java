@@ -43,6 +43,9 @@ public class PoloTic {
         
         
         
+        System.out.println("DEJAME PUSHEAR!");
+
+        
         
        
 //        Clase1 clase = new Clase1();
